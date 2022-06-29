@@ -1,0 +1,11 @@
+### Requirements ###
+flask
+flask-cors
+requests
+gspread
+oauth2client
+regex
+pandas
+sklearn
+nltk
+pandas

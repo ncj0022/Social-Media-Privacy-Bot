@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tweet Results Testing renders correctly given Empty input 1`] = `
+<div>
+  <div>
+    <figure
+      class="text-center"
+    >
+      <blockquote
+        class="blockquote"
+      />
+    </figure>
+  </div>
+</div>
+`;

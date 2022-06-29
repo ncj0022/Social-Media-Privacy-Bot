@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  express-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: smb-backend-img
+    container_name: social-media-bot-backend
+    ports:
+      - 5000:5000
+    env_file: ./backend/.env
+  react-frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: smb-frontend-img
+    container_name: social-media-bot-frontend
+    ports: 
+      - 3000:3000
+  flask-image:
+    build:
+      context: ./AI
+      dockerfile: Dockerfile
+    image: smb-flask-img
+    container_name: social-media-bot-flask
+    ports: 
+      - 5001:5001      

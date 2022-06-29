@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div>
+    <textarea
+      cols="100"
+      placeholder="Example Tweet"
+      readOnly={true}
+      rows="8"
+      value=""
+    />
+  </div>
+  <div
+    className="btn-group mr-2"
+    role="group"
+  >
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+    >
+       SPAM 
+    </button>
+    <button
+      className="btn btn-success"
+      onClick={[Function]}
+    >
+       HAM 
+    </button>
+  </div>
+  <div
+    className="btn-group"
+    role="group"
+  >
+    <button
+      className="btn btn-secondary"
+      onClick={[Function]}
+    >
+       NEXT 
+    </button>
+  </div>
+</div>
+`;
