@@ -21,7 +21,3 @@ The frontend is accessible at localhost:3000
 The backend is accessible at localhost:5000
 
 The TwitterAPI is accessible at localhost:5001
-
-## Live Site
-
-programmers4901.tech
